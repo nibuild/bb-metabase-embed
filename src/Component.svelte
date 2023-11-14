@@ -20,10 +20,10 @@
   let setTheme = ""
 
   if ( !bordered ) {
-    setBorder = false
+    setBorder = "false"
   }
   if ( !titled ) {
-    setTitle = false
+    setTitle = "false"
   }
   if ( theme && theme != "default" ) {
     if ( theme == "dark" )
