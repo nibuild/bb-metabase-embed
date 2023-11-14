@@ -1,0 +1,74 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "metbase-embed",
+    "friendlyName": "metbase-embed",
+    "description": "Allows private embedding of metabase content",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "metabaseURL",
+        "label": "Server URL",
+        "required": true
+      },
+      {
+        "type": "select",
+        "key": "metabaseType",
+        "label": "Embed Type",
+        "options":["dashboard", "question"],
+        "required": true,
+        "defaultValue": "dashboard"
+      },
+      {
+        "type": "text",
+        "key": "metabaseKey",
+        "label": "API Key",
+        "required": true
+      },
+      {
+        "type": "number",
+        "key": "timeout",
+        "label": "Expiration",
+        "defaultValue": "10"
+      },
+      {
+        "type": "text",
+        "key": "metabasePayload",
+        "label": "Payload",
+        "defaultValue": "{{ js {resource: { dashboard: 1 },params: { }} }}"
+      },
+      {
+        "type": "select",
+        "key": "theme",
+        "label": "Theme",
+        "options": ["default", "dark", "transparent"]
+      },
+      {
+        "type": "boolean",
+        "key": "bordered",
+        "label": "Bordered?",
+        "defaultValue": true
+      },
+      {
+        "type": "boolean",
+        "key": "titled",
+        "label": "Title?",
+        "defaultValue": true
+      },
+      {
+        "type": "text",
+        "key": "eheight",
+        "label": "Height",
+        "defaultValue": 600
+      },
+      {
+        "type": "text",
+        "key": "ewidth",
+        "label": "Width",
+        "defaultValue": 800
+      }
+    ]
+  }
+}
