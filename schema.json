@@ -3,9 +3,9 @@
   "metadata": {},
   "schema": {
     "name": "metbase-embed",
-    "friendlyName": "metbase-embed",
+    "friendlyName": "Metabase Embed",
     "description": "Allows private embedding of metabase content",
-    "icon": "Text",
+    "icon": "WebPages",
     "settings": [
       {
         "type": "text",
@@ -37,7 +37,7 @@
         "type": "text",
         "key": "metabasePayload",
         "label": "Payload",
-        "defaultValue": "{{ js {resource: { dashboard: 1 },params: { }} }}"
+        "defaultValue": "{{ js \"cmV0dXJuIHsKICByZXNvdXJjZTogeyAKICAgIGRhc2hib2FyZDogMSwKICAgIHBhcmFtczoge30KICB9Cn0=\" }}"
       },
       {
         "type": "select",

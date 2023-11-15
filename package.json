@@ -1,6 +1,6 @@
 {
-  "name": "metbase-embed",
-  "version": "0.0.1",
+  "name": "metabase-embed",
+  "version": "0.0.2",
   "description": "Allows private embedding of metabase content",
   "license": "MIT",
   "svelte": "index.js",
