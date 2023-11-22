@@ -2,7 +2,7 @@
   "type": "component",
   "metadata": {},
   "schema": {
-    "name": "metbase-embed",
+    "name": "metabase-embed",
     "friendlyName": "Metabase Embed",
     "description": "Allows private embedding of metabase content",
     "icon": "WebPages",
